@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Indic+Siyaq+Numbers&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+}
+html{
+    scroll-behavior:smooth;
+}
+#preloader{
+    height: 100vh;
+    width: 100vw;
+    background: white url("https://d37oebn0w9ir6a.cloudfront.net/account_6827/morecomplexpreloader_886627a5970f20237034c1e4e5e83a56.gif") no-repeat center center;
+    z-index: 100;
+    position: fixed;
+}
+.header{
+    height:100px;
+    background-color:#F6F6F6;
+    width:100%;
+    font-family: 'Noto Sans Indic Siyaq Numbers', sans-serif;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+   
+    gap:1em;
+}
+.h1{
+    font-size:1.7em;
+    color:crimson;
+    font-weight:bold;
+}
+.main{
+    height:1200px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    background-color:	#bf0000;
+}
+.main1{
+    position:relative;
+    top:5em;
+    width:70em;
+    height:60em;
+    /* background-color:blue; */
+    box-shadow:skyblue 2px 2px 2px 2px;
+    /* background-color:#F6F6F6; */
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:20px;
+    background-color:white;
+}
+.m1{
+    word-spacing: 0.2em;
+    font-size:1.6em;
+    color:crimson;
+    font-family: 'Noto Sans Indic Siyaq Numbers', sans-serif;
+    font-weight:bold;
+    margin-top:1.5em;
+  
+}
+.inputwraped{
+    margin-top:1.5em;
+    display:flex;
+    flex-direction:row;
+    gap:1em;
+   
+}
+.m2{
+    font-family: 'Noto Sans Indic Siyaq Numbers', sans-serif;
+    width:50em;
+    font-size:1em;
+    color:crimson;
+    border-color:crimson;
+    height:3.5em;
+    border-radius:0px;
+    padding-left:5px;
+    font-weight:bold;   
+    text-align:center;
+    word-spacing: 0.2em;
+    box-shadow:skyblue 2px 2px 2px 2px;
+    
+}
+.m3{
+    font-family: 'Noto Sans Indic Siyaq Numbers', sans-serif;
+    font-size:1em;
+    height:3.7em;
+    background-color:crimson;
+    color:white;
+    width:10em;
+    transition:all 0.5s ease-out;
+    cursor:pointer;
+    word-spacing: 0.2em;
+    box-shadow:skyblue 2px 2px 2px 2px;
+}
+.m3p{
+    background-color:#00b300;
+
+}
+.m4{
+    margin-top:3em;
+    font-family: 'Noto Sans Indic Siyaq Numbers', sans-serif;
+    font-size:0.9em;
+    word-spacing: 0.2em;
+}
+#link{
+    margin-top:3em;
+}
+.l1{
+    font-size:1em;
+    color:black;
+    word-spacing: 0.2em;
+
+}
+.l2{
+    text-decoration:none;
+    /* color:black; */
+}
+/* css for smaller devices */
+
+@media screen and (max-width:1200px){
+    .inputwraped{
+      margin-top:1.5em;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+    }
+    .main{
+      height:1400px;
+    }
+    .main1{
+     width:50em;
+      height:70em;
+    }
+    .m2{
+      width:40em;
+    }
+  
+  
+    
+  }
+  @media screen and (max-width:900px){
+    .main1{
+     width:40em;
+      height:70em;
+    }
+    .m2{
+      width:30em;
+    }
+  
+  }
+  @media screen and (max-width:700px){
+    .main1{
+     width:30em;
+      height:70em;
+    }
+    .m2{
+      width:20em;
+    }
+  
+  
+    
+  }
+  @media screen and (max-width:500px){
+  .main{
+    height:1600px;
+  }
+    .main1{
+     width:20em;
+      height:90em;
+    }
+    .m1{
+      font-size: 1.2em;
+    }
+    
+  }
+  @media screen and (max-width:370px){
+  
+  
+    .main{
+      height:1900px;
+    }
+    .main1{
+     width:10em;
+      height:110em;
+    }
+  
+  
+    .m2{
+      width:10em;
+    }
+  
+  
+    
+  }
